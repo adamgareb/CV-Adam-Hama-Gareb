@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* General CSS */
+.header{
+    min-height: 10vh;
+    background-image: linear-gradient(rgba(221, 0, 255, 0.897),rgba(25, 0, 255, 0.534));
+    left: 50%;
+}
+
+.background{
+    min-height: 100vh;
+    width: 100%;
+    display: block;
+    background-image: linear-gradient(rgba(221, 0, 255, 0.897),rgba(25, 0, 255, 0.534));
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.logo_container{
+    height: 100%;
+    float: middle;
+}
+
+h1 {
+    margin:0;
+    padding:0;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+
+.logo_container h1{
+    color: rgb(255, 255, 255);
+    height: 100%;
+    vertical-align: middle;
+    font-family: "Lucida Sans";
+    font-size: 50px;
+    font-weight: 700;
+    top: 100%;
+}
+
+.paragraph {
+    text-align: center;
+    text-shadow: 0 0 8px rgb(240, 99, 209), 0 0 3px blue;
+    font-family: 'Poppins';
+    font-size: 15px;
+    color: black 
+}
+
+br {
+    display: block;
+    margin: 10px 0;
+    line-height: 32px;
+}
+
+li {
+    font-size: 13px;
+    margin-left: 20px;
+    font-family: 'Poppins';
+}
+
+ul{
+}
+
+/* CSS for index.html */
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    min-height: 60vh;
+}
+
+.btn {
+    width: 270px;
+    height: 150px;
+    border: none;
+    color: white;
+    background-image: linear-gradient(rgb(10, 14, 255),rgba(2, 255, 107, 0.746));
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 #0000FF;
+    transition: ease-out 0.3s;
+    font-size: 2rem;
+    outline: none;
+    font-family: "Poppins";
+    text-shadow: 0 0 10px #000000;
+}
+
+.copyright {
+    text-align: center;
+    text-shadow: 0 0 10px rgb(0, 0, 0), 0 0 3px rgb(0, 0, 0);
+    font-family: 'Poppins';
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 141px;
+}
+
+
+/* CSS for me.html */
+.copyright_me {
+    text-align: center;
+    text-shadow: 0 0 10px rgb(0, 0, 0), 0 0 3px rgb(0, 0, 0);
+    font-family: 'Poppins';
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 176px;
+}
+
+.NTI {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 40px;
+}
+
+.Göteborg {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    bottom: -70px;
+}
+
+.paragraph_me {
+    text-align: center;
+    text-shadow: 0 0 8px rgb(240, 99, 209), 0 0 3px blue;
+    font-family: 'Poppins';
+    font-size: 20px;
+    color: black;
+    position: relative;
+    top: 25px;
+}
+
+.paragraph_me2 {
+    text-align: center;
+    text-shadow: 0 0 8px rgb(240, 99, 209), 0 0 3px blue;
+    font-family: 'Poppins';
+    font-size: 20px;
+    color: black;
+    position: relative;
+    top: 60px;
+}
+
+.paragraph_me3 {
+    text-align: center;
+    text-shadow: 0 0 8px rgb(240, 99, 209), 0 0 3px blue;
+    font-family: 'Poppins';
+    font-size: 20px;
+    color: black;
+    position: relative;
+    top: 90px;
+}
+
+
+/* CSS for courses.html */
+.sub-title {
+    color: rgb(255, 255, 255);
+    vertical-align: middle;
+    font-family: "Lucida Sans";
+    font-size: 35px;
+    font-weight: 700;
+    text-shadow: 0 0 3px #000000, 0 0 3px #0000FF;
+    text-align: center;
+    position: relative;
+    top: 40px;
+}
+
+.sub-title2 {
+    color: rgb(255, 255, 255);
+    vertical-align: middle;
+    font-family: "Lucida Sans";
+    font-size: 35px;
+    font-weight: 700;
+    text-shadow: 0 0 3px #000000, 0 0 3px #0000FF;
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+
+.sub-title3 {
+    color: rgb(255, 255, 255);
+    vertical-align: middle;
+    font-family: "Lucida Sans";
+    font-size: 35px;
+    font-weight: 700;
+    text-shadow: 0 0 3px #000000, 0 0 3px #0000FF;
+    text-align: center;
+    position: relative;
+    top: 180px;
+}
+
+.paragraph_courses {
+    text-align: center;
+    text-shadow: 0 0 8px rgb(240, 99, 209), 0 0 3px blue;
+    font-family: 'Poppins';
+    font-size: 20px;
+    color: black;
+    position: relative;
+    top: 60px;
+}
+
+.paragraph_courses2 {
+    text-align: center;
+    text-shadow: 0 0 8px rgb(240, 99, 209), 0 0 3px blue;
+    font-family: 'Poppins';
+    font-size: 20px;
+    color: black;
+    position: relative;
+    top: 120px;
+}
+
+.paragraph_courses3 {
+    text-align: center;
+    text-shadow: 0 0 8px rgb(240, 99, 209), 0 0 3px blue;
+    font-family: 'Poppins';
+    font-size: 20px;
+    color: black;
+    position: relative;
+    top: 200px;
+}
+
+.copyright_courses {
+    text-align: center;
+    text-shadow: 0 0 10px rgb(0, 0, 0), 0 0 3px rgb(0, 0, 0);
+    font-family: 'Poppins';
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 299px;
+}
+
+/* CSS for interests.html */
+.playlist {
+    position: relative;
+    left: 880px;
+    top: 10px;
+}
+
+.Rubiks_Cube {
+    width: 200px;
+    position: relative;
+    left: 520px;
+}
+
+.small_paragraph_interests {
+    text-align: center;
+    text-shadow: 0 0 8px rgb(240, 99, 209), 0 0 3px blue;
+    font-family: 'Poppins';
+    font-size: 10px;
+    color: black;
+    position: relative;
+    right: 150px;
+    bottom: 100px;
+}
+
+.copyright_interests {
+    text-align: center;
+    text-shadow: 0 0 10px rgb(0, 0, 0), 0 0 3px rgb(0, 0, 0);
+    font-family: 'Poppins';
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: -2px;
+}
+
+
+
+/* CSS for documentation.html */
+.copyright_documentation {
+    text-align: center;
+    text-shadow: 0 0 10px rgb(0, 0, 0), 0 0 3px rgb(0, 0, 0);
+    font-family: 'Poppins';
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 188px;
+}

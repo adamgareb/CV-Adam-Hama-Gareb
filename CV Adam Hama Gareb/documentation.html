@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Länkning till CSS -->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <!-- Fonts från Google -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <div class="background">
+            <a href="index.html">
+                ←Tillbaks till föregående sida
+            </a>
+            <div class="logo_container">
+                <!-- My title -->
+                <h1>Dokumentation</h1>
+                <!-- My paragraphs -->
+            <div class="paragraph">
+            <p>Under den tiden som jag har jobbat med att göra den här hemsidan så har jag stött på väldigt många problem. Det krävdes mycket trial and error för att kunna felsöka koden och se vad som gjordes fel och hur det kunde fixas.</p>
+            <br/>
+            <p>Exempel på problem som jag har stött på är:</p>
+        </div>
+            <!-- Bullet list -->
+            <ul>
+                <li>Det fanns små koder som jag la in i min CSS kod när jag experimenterade med att göra den här sidan, och ibland så hände det att en specifik kod som jag la till gjorde så att resten av de andra koderna som jag la till inte fungerade alls. Exempelvis la jag en gång till position:relative; eller någon liknande kod till min bakgrund, vilket gjorde så att jag inte kunde justera något annat med bakgrunden efteråt. Ex. kunde jag inte använda mig av top: ; eller left: ;. </li>
+                <li>Ibland så kunde jag sitta i flera timmar och gå igenom trial and error för att använda mig av en specifik kod, men slutligen gav jag upp och använde mig av en annan approach. Det hände exempelvis med mina br tags när jag ville ha mer space emellan paragraferna, men lyckades inte få till det pga tidsbrist på uppgiften och använde mig av något annat som jag var mer bekväm med, som var att justera placeringarna manuellt med hjälp av CSS. Ungefär samma sak var det också med min lilla copyright symbol som jag la på botten av varje sida. Jag ville att den skulle ligga på botten med samma placering utan att behöva lägga den på "footer" då jag tyckte det var finare så som jag har den nu. Då behövde jag använda mig av 5 separa CSS "variabler" för att placera de enskilt på sin plats.</li>
+                <li>Något annat problem som var ungefär som första punkten var att ibland så la jag till en kod i min CSS som kunde förstöra alla andra koder som jag la till under samma "variabel" (detta hände faktiskt med punktlistan som du läser just nu) och tills jag hade hittat vad det var som orsakade förstörningen och hade tagit bort det så var problemet fortfarande kvar, vilket var väldigt störigt. Den enda lösningen jag hittade till problemet var att Ctrl + Z:a tills jag kom till en punkt där jag aldrig la till koden till att börja med, och så ändrades allting tillbaka till hur det var innan.</li>
+            </ul>
+            <!-- Copyright symbol -->
+            <div class="copyright_documentation">
+            <p>© Adam Hama Gareb - 2021</p>
+        </div>
+    </body>
+</html>
